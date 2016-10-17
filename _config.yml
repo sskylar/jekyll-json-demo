@@ -1,0 +1,15 @@
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "json"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/:collection/:path.json"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: "/:path/:basename.json"
