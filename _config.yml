@@ -7,9 +7,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: "/:collection/:path.json"
+      permalink: "/:collection/:path.json" # rewrite all posts with .json extension
   - scope:
       path: ""
       type: "pages"
     values:
-      permalink: "/:path/:basename.json"
+      permalink: "/:path/:basename.json" # rewrite all pages with .json extension
