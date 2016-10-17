@@ -2,7 +2,7 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "json"
+      layout: "json" # apply json layout to all files
   - scope:
       path: ""
       type: "posts"
